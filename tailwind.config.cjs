@@ -12,6 +12,8 @@ module.exports = {
       "pale-orange": "hsl(var(--pale-orange) /<alpha-value>)",
       "soft-red": "hsl(var(--soft-red) /<alpha-value>)",
       white: "#FFF",
+      "primary": "hsl(var(--dark-brown))",
+      "secundary": "hsl(var(--medium-brown))",
     },
     textColor: {
       white: "#FFF",
