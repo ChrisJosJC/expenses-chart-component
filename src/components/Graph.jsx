@@ -1,13 +1,13 @@
 import React from 'react'
-import { Bar } from "./Bar.jsx";
+import { Bars } from "./Bars.jsx";
 
 export function Graph() {
     return (
-        <div className="flex flex-col mt-1 h-3/4 bg-white pt-6 p-4 md:w-3/6 sm:w-full lg:w-2/6 rounded-lg">
-            <h2 className="text-primary font-bold text-2xl">
+        <div className="flex flex-col mt-1 h-2/4 bg-white md:w-2/4 lg:w-2/6 pt-10 p-10 w-full rounded-2xl">
+            <h2 className="text-primary font-bold md:text-2xl sm:text-5xl">
                 Spending - Last 7 days
             </h2>
-            <Bar />
+            <Bars />
             <hr className="opacity-20" />
 
             <div className="mt-4 flex justify-between">
